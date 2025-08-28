@@ -8,7 +8,7 @@
 ## Set up SEED virtual machine on Apple Silicon Mac
 1. Install VMware Fusion (which is free for personal use). A detailed instruction is provided in [seedvm-arm64-fusion-installation.md](./seedvm-arm64-fusion-installation.md).
 2. Build an Ubuntu VM on VMWare Fusion. Since the desktop versions of all Ubuntu VM are removed, we can no longer use the pre-built desktop versions. We install the server version instead, but don't worry about the GUI, as we will install ubuntu-desktop in the VM later. A detailed instruction is provided in [seedvm-arm64-ubuntu-installation.md](./seedvm-arm64-ubuntu-installation.md).
-3. Install software inside the VM to get the required environment of SEED labs. A detailed instruction is provided in [seedvm-lab-setup.md](./seedvm-lab-setup.md).
+3. Install software inside the VM to get the required environment of SEED labs. A detailed instruction is provided in [seedvm-arm64-lab-setup.md](./seedvm-arm64-lab-setup.md).
  
 ## GitHub access token
 GitHub has discontinued accepting passwords as an authentication mechanism when you work with it from shell. Instead of password, you need to [create an access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and provide that. Use the classic access token option.
